@@ -1,39 +1,34 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
+import particlesConfig from "../../config/particle-config";
+import particlesBlackConfig from "../../config/pr-s-black";
+import Particles from "react-tsparticles";
 
-const Intro2 = ({ sliderRef }) => {
+const Intro4 = ({ sliderRef, blackStar }) => {
   return (
-    <header ref={sliderRef} className="slider-st valign position-re">
+    <header ref={sliderRef} className="particles circle-bg valign">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6 valign">
-            <div className="cont md-mb50">
-              <div className="sub-title mb-5">
-                <h6>Digital Consulting Agency</h6>
-              </div>
-              <h1 className="mb-10 fw-600">Unique Business Consulting.</h1>
-              <p>
-                We help our clients succeed by creating brand identities,
-                digital experiences, and print materials.
-              </p>
-              <Link href={`/about`}>
-                <a className="butn bord curve mt-30">
-                  <span>About Us</span>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="img">
-              <img src="/img/slid/001.jpg" alt="" />
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+            <div className="cont text-center">
+              <h1>
+                <span className="color-font">Creativity</span> is the process of
+                having <span className="color-font">original ideas</span>.
+              </h1>
             </div>
           </div>
         </div>
       </div>
+
+      <Particles
+        id="particles-js"
+        options={blackStar ? particlesBlackConfig : particlesConfig}
+      />
+
+        <div className="gradient-circle"></div>
+        <div className="gradient-circle two"></div>
       <div className="line bottom left"></div>
     </header>
   );
 };
 
-export default Intro2;
+export default Intro4;
