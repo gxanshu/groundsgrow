@@ -17,8 +17,7 @@ const Clients = ({theme}) => {
               </h6>
               <h3 className="wow mb-20 color-font">Our Clients</h3>
               <p>
-                Our area of practice is quite wide: design, graphics, branding,
-                development.
+                Success Stories and Testimonials from Our Valued Clients.
               </p>
             </div>
           </div>
@@ -42,14 +41,10 @@ const Clients = ({theme}) => {
                       }s`}
                     >
                       <div className="img">
-                        {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
-                        ) : (
-                          <img src={item.darkImage} alt="" />
-                        )}
+                        <img src={item.darkImage} alt="" />
                         <Split>
                           <a
-                            href="#0"
+                            href={item.url}
                             className="link words chars splitting"
                             data-splitting
                           >
@@ -92,11 +87,7 @@ const Clients = ({theme}) => {
                       }s`}
                     >
                       <div className="img">
-                        {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
-                        ) : (
-                          <img src={item.darkImage} alt="" />
-                        )}
+                        <img src={item.darkImage} alt="" />
                         <Split>
                           <a
                             href="#0"

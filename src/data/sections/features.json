@@ -3,24 +3,24 @@
         "id": 1,
         "icon": "pe-7s-paint-bucket",
         "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "content": "In graphic designing, we craft compelling visuals that tell your brand's story and leave a lasting impression."
     },
     {
         "id": 2,
         "icon": "pe-7s-phone",
         "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "content": "we build stunning and user-friendly websites and mobile applications that drive your online presence and enhance user experience."
     },
     {
         "id": 3,
         "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "title": "Degital Marketing",
+        "content": " we optimize your online visibility, engage your target audience, and generate measurable results through data-driven strategies and effective campaign management."
     },
     {
         "id": 4,
-        "icon": "pe-7s-diskette",
+        "icon": "pe-7s-config",
         "title": "Document Legal Policy",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "content": "we engineer tailor-made solutions that address your unique business challenges and streamline your operations, empowering you with scalable and efficient software systems."
     }
 ]
