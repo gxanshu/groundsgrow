@@ -73,9 +73,7 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Groundsgrow built our WordPress store and helped us go online. We're now selling perfumes and growing our business.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -85,9 +83,9 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Akash</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            The Perfume Yard
                           </span>
                         </div>
                       </div>

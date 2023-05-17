@@ -48,7 +48,7 @@ const Clients = ({theme}) => {
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {item.url.replace("https://", "")}
                           </a>
                         </Split>
                       </div>
@@ -94,7 +94,7 @@ const Clients = ({theme}) => {
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {item.url.replace("https://", "")}
                           </a>
                         </Split>
                       </div>

@@ -24,11 +24,10 @@ const Team = () => {
                 <span></span>
               </div>
               <h3 className="co-tit mb-15">
-                We help to create visual strategies.
+                Let Me Introduce Our Team of Experts
               </h3>
               <p>
-                We are Vie. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdie.
+                We are committed to providing our clients with the best possible service, and we are always looking for new ways to help them grow their businesses.
               </p>
               <div className="skills-box mt-40">
                 {teamsDate.skills.map((skill) => (

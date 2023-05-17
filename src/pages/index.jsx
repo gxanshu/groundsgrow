@@ -1,15 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar/navbar";
-import Intro2 from "../components/Intro2/intro2";
-import Services from "../components/Services/services";
-import Video2 from "../components/Video2/video2";
+import FullTestimonials from "../components/Full-testimonials/full-testimonials";
 import CallToAction from "../components/Call-to-action/call-to-action";
 import Footer from "../components/Footer/footer";
+import Team from "../components/Team/team";
 import DarkTheme from "../layouts/Dark";
-import Portfolio from "../components/Portfolio/portfolio";
-import FullTestimonials from "../components/Full-testimonials/full-testimonials";
-import Team2 from "../components/Team2/team2";
-import Blogs2 from "../components/blogs/Blogs2/blogs2";
+import Works3 from "../components/Works3/works3";
+import Blogs4 from "../components/blogs/Blogs4/blogs4";
+import Intro4 from "../components/Intro4/intro4";
+import AboutUs3 from "../components/About-us3/about-us3";
+import Services3 from "../components/Services3/services3";
+import MinimalArea2 from "../components/Minimal-Area2/minimal-area2";
 
 const Homepage = () => {
   const navbarRef = React.useRef(null);
@@ -33,13 +34,14 @@ const Homepage = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <Intro2 />
-      <Services style="4item" />
-      <Video2 />
-      <Portfolio grid={3} filterPosition="center" />
-      <FullTestimonials noPadding />
-      <Team2 />
-      <Blogs2 />
+      <Intro4 />
+      <AboutUs3 />
+      <Works3 />
+      <Services3 />
+      <MinimalArea2 />
+      <FullTestimonials classText="pb-0" />
+      <Team />
+      <Blogs4 />
       <CallToAction />
       <Footer />
     </DarkTheme>

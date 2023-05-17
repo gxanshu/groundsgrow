@@ -2,25 +2,25 @@
     {
         "id": 1,
         "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "In graphic designing, we craft compelling visuals that tell your brand's story and leave a lasting impression."
+        "title": "Web development",
+        "content": "This includes designing the website, developing the code, and testing the website."
     },
     {
         "id": 2,
         "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "we build stunning and user-friendly websites and mobile applications that drive your online presence and enhance user experience."
+        "title": "App development",
+        "content": "This includes designing the app, developing the code, and testing the app."
     },
     {
         "id": 3,
         "icon": "pe-7s-display1",
-        "title": "Degital Marketing",
-        "content": " we optimize your online visibility, engage your target audience, and generate measurable results through data-driven strategies and effective campaign management."
+        "title": "Digital marketing",
+        "content": " This includes search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and email marketing."
     },
     {
         "id": 4,
         "icon": "pe-7s-config",
-        "title": "Document Legal Policy",
-        "content": "we engineer tailor-made solutions that address your unique business challenges and streamline your operations, empowering you with scalable and efficient software systems."
+        "title": "IT support",
+        "content": "This includes troubleshooting problems, installing software, and providing training and more."
     }
 ]
